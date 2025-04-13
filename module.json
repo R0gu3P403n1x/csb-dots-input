@@ -1,0 +1,37 @@
+{
+    "id": "csb-dots-input",
+    "title": "Custom System Builder - Dots Input",
+    "description": "Adds a Dots Input component to Custom System Builder for representing WoD style attributes and abilities with dots.",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "R0gu3P403n1x",
+            "url": "https://github.com/R0gu3P403n1x/csb-dots-input"
+        }
+    ],
+    "compatibility": {
+        "minimum": "12",
+        "verified": "12.331", // Or the Foundry VTT version you're using
+        "maximum": "12"
+    },
+    "systems": [
+        "custom-system-builder" // This module is only compatible with CSB
+    ],
+    "esmodules": [
+        "scripts/dots-input.js"
+    ],
+    "styles": [
+        "styles/dots-input.css"
+    ],
+    "dependencies": [
+        {
+            "id": "custom-system-builder",
+            "type": "system",
+            "required": true,
+            "compatibility": {}
+        }
+    ],
+    "url": "https://github.com/R0gu3P403n1x/csb-dots-input",
+    "manifest": "https://github.com/R0gu3P403n1x/csb-dots-input/releases/download/1.0.0/module.json",
+    "download": "https://github.com/R0gu3P403n1x/csb-dots-input/releases/download/1.0.0/csb-dots-input.zip"
+}

@@ -1,0 +1,19 @@
+<div>
+    <div class="form-group">
+        <label for="dotsInputLabel">Label</label>
+        <input type="text" id="dotsInputLabel" value="{{label}}">
+    </div>
+    <div class="form-group">
+        <label for="dotsInputSize">Size</label>
+        <select id="dotsInputSize">
+            <option value="full-size" {{#if (eq size "full-size")}}selected{{/if}}>Full Size</option>
+            <option value="small" {{#if (eq size "small")}}selected{{/if}}>Small</option>
+            <option value="medium" {{#if (eq size "medium")}}selected{{/if}}>Medium</option>
+            <option value="large" {{#if (eq size "large")}}selected{{/if}}>Large</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="dotsInputMaxValue">Max Value</label>
+        <input type="number" id="dotsInputMaxValue" value="{{maxValue}}">
+    </div>
+</div>
